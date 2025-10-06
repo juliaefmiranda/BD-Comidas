@@ -1,0 +1,8 @@
+Não precisa mais criar dados.js em model;
+Não precisa mais criar .env e .gitignore pois será criado automaticamente;
+
+- Precisa instalar o Prisma e Prisma Cliente
+npm i prisma @prisma/client
+
+- Inicializar o Prisma
+npx prisma init --datasource-provider postgresql
