@@ -1,4 +1,4 @@
-import * as ComidaModel from './../models/comidaModel.js'
+import * as ComidaModel from '../models/comidaModel.js'
 
 export const listarTodos = async (req, res) => {
     try {
@@ -30,7 +30,7 @@ export const listarUm = async (req, res) => {
     try {
         
         const id = req.params.id;
-        const comida = await ComidaModelModel.encontreUm(id);
+        const comida = await ComidaModel.encontreUm(id);
 
         if (!comida) {
             return res.status(404).json({

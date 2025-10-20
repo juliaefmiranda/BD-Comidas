@@ -1,5 +1,5 @@
 import { Router } from "express";
-import * as ComidaController from '../controllers/comidaConroller.js';
+import * as ComidaController from '../controllers/comidaController.js';
 
 const router = Router();
 
