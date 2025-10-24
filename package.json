@@ -15,10 +15,12 @@
   "license": "MIT",
   "description": "Atividade banco de dados + backend",
   "dependencies": {
-    "@prisma/client": "^6.16.3",
+    "@prisma/client": "^6.18.0",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    "nodemon": "^3.1.10",
-    "prisma": "^6.16.3"
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "prisma": "^6.18.0"
   }
 }

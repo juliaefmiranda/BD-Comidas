@@ -41,7 +41,7 @@ export const listarUm = async (req, res) => {
         }
 
         res.status(200).json({
-            message: 'Comida não encontrado', comida
+            message: 'Comida encontrado', comida
         })
 
     } catch (error) {
